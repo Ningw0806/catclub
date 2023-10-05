@@ -1,0 +1,40 @@
+.button-link {
+    border: none;
+    color: #627aa3;
+    text-decoration: none;
+    background-color: white;
+
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-link:hover {
+    color: #834C24;
+}
+
+.button-button {
+    width: 12rem;
+    height: 2rem;
+    margin: 0.5rem;
+
+
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+
+    border-style: dashed;
+    cursor: pointer;
+}
+
+.button-button:hover {
+    color: white;
+    background-color: #627aa3;
+}
+
+.welcome-content {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}

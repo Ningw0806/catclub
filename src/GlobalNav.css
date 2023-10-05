@@ -1,0 +1,76 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu.css');
+
+.global-nav-toggle {
+    border: none;
+    background: inherit;
+
+    font-weight: bold;
+    padding-left: 0.8rem;
+    margin: 1rem auto 1rem 2rem;
+
+    color: black;
+    cursor: pointer;
+}
+
+.global-nav-list {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+    line-height: 0.8rem;
+}
+
+.global-nav-list--open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+
+    background-color: burlywood;
+}
+
+.global-nav-item {
+    width: 100%;
+}
+
+.global-nav-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    text-align: center;
+
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.global-nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (min-width: 44rem) {
+    .global-nav-toggle {
+        display: none;
+    }
+
+    .global-nav-list {
+        display: flex;
+    }
+
+    .global-nav-list--open {
+        display: flex;
+        flex-direction: row;
+        position: static;
+
+        background-color: burlywood;
+    }
+
+    .global-nav-item {
+        width: auto;
+    }
+}

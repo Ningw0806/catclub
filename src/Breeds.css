@@ -1,0 +1,16 @@
+.breeds-subtitle {
+    margin-top: 3rem;
+    text-align: center;
+
+    font-size: 2.5rem;
+    color: #627aa3;
+    font-weight: normal;
+}
+
+.suggestion-text {
+    font-weight: bold;
+}
+
+.accordion-item {
+    margin: 16px;
+}

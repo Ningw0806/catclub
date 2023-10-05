@@ -1,0 +1,50 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-left-o.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right-o.css');
+
+.cat-images {
+    display: flex;
+    justify-content: center;
+}
+
+.cat-image {
+    max-width: 100%;
+    max-height: 600px;
+    width: 550px;
+
+    aspect-ratio: 550/450;
+}
+
+.cat-image-content {
+    margin: 1rem 5rem 2rem 5rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.image-button {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.arrow-left {
+    border: none;
+
+    position: absolute;
+    top: 80%;
+    left: 20px;
+
+    background-color: inherit;
+    color: #834C24;
+}
+
+.arrow-right {
+    border: none;
+
+    position: absolute;
+    top: 80%;
+    right: 20px;
+
+    background-color: inherit;
+    color: #834C24;
+}

@@ -1,0 +1,49 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css');
+
+.footer {
+    display: grid;
+    grid-template-areas:
+        "footer-title footer-title"
+        "footer-cat-list footer-cat-list"
+        "footer-link-list footer-social-list"
+    ;
+    grid-template-columns: auto 1fr;
+
+    background-color: var(--banner-bg-color);
+}
+
+.footer-title {
+    grid-area: footer-title;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-style: italic;
+
+    margin-left: 16px;
+}
+
+.footer-social-list {
+    grid-area: footer-cat-list;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 1rem 2rem 2rem 1rem;
+    margin: 0;
+
+    list-style: none;
+}
+
+.social-list-item {
+    padding-right: 16px;
+}
+
+.social-list-link {
+    margin-left: 2rem;
+}
+
+.privacy {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}

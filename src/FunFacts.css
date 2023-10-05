@@ -1,0 +1,32 @@
+.funfacts-title {
+    text-align: center;
+
+    font-size: 2.5rem;
+    color: #627aa3;
+    font-weight: normal;
+}
+
+.funfact-subtitle {
+    color: #834C24;
+    font-weight: bold;
+}
+
+.funfacts-content {
+    font-style: italic;
+}
+
+.invite-text {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.join-link {
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #834C24;
+}
+
+.join-link:hover {
+    color: #627aa3;
+}

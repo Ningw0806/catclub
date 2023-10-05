@@ -1,0 +1,67 @@
+.trending-subtitle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #627aa3;
+    font-weight: normal;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    grid-column: span 12;
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0.5rem;
+
+    background-color: #eee;
+}
+
+.card-name {
+    text-align: center;
+}
+
+.card-pic {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    margin-bottom: 1.5rem;
+
+    border-radius: 50%;
+}
+
+.card-text {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+.card-link {
+    margin-top: auto;
+    text-align: center;
+
+    font-style: italic;
+    color: #834C24;
+    ;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+    color: #627aa3;
+}
+
+@media (min-width: 44rem) {
+    .card {
+        grid-column: span 4;
+    }
+}

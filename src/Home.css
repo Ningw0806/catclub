@@ -1,0 +1,28 @@
+.welcome-text {
+    text-align: center;
+    font-weight: bold;
+
+    font-size: 3rem;
+    color: #B56917;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+.main-item {
+    margin: 3rem;
+
+    text-align: justify;
+    font-size: large;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 3rem auto;
+}
+
+.cover-image {
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    transform: rotate(20deg);
+}

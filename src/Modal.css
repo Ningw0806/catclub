@@ -1,0 +1,27 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/close.css');
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.submit-button {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.error {
+    color: red;
+}
+
+.gg-close {
+    color: black;
+    cursor: pointer;
+}
+
+.welcome-content {
+    color: #627aa3;
+}

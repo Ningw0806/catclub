@@ -1,0 +1,19 @@
+.app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+}
+
+.skip-menu {
+    background: burlywood;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    z-index: 2000;
+    padding: 2px 15px 2px 15px;
+}
+
+.skip-menu:focus {
+    top: 0.5rem;
+    left: 45%;
+}
