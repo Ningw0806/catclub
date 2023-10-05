@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# CATCLUB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ABOUT
 
-## Available Scripts
+CatClub is a React application that provides information about various cat
 
-In the project directory, you can run:
+breeds through an interactive UI. Users can explore diﬀerent breeds and
 
-### `npm start`
+learn about their characteristics, making it a handy tool for potential cat
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+owners or enthusiasts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## TECHNOLOGIES USED
 
-### `npm test`
+• React: Utilized for UI development, enabling the creation of interactive
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+UI components.
 
-### `npm run build`
+• CSS: Employed for styling the application, enhancing the user interface,
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+and user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• JavaScript (ES6+): The scripting language used to create dynamic
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+content and handle user interactions.
 
-### `npm run eject`
+• npm: A package manager used to manage project dependencies and
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+run scripts.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+• HTML5: The markup language used for structuring the content.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+SETUP AND INSTALLATION
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+• Clone the repository: git clone https://github.com/Ningw0806/
 
-## Learn More
+catclub.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+• Navigate to the project directory: cd catclub
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+• Install dependencies: npm install
 
-### Code Splitting
+• Start the development server: npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## TESTING
 
-### Analyzing the Bundle Size
+Ensure the web app functions correctly by running:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+\- `npm install`
 
-### Making a Progressive Web App
+\- `npm run build`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+\- `npx -s serve build`
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<a name="br2"></a> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## USAGE
 
-### `npm run build` fails to minify
+The application provides an accordion-style UI where users can explore
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+various cat breeds and read about their characteristics.
+
+## CONTRIBUTION
+
+Contributions, issues, and feature requests are welcome! Feel free to check
+
+[issues](https://github.com/Ningw0806/catclub/issues)[ ](https://github.com/Ningw0806/catclub/issues)[page](https://github.com/Ningw0806/catclub/issues).
+
+## LICENSE
+
+MIT License
+
+## CONTACT
+
+GitHub: [Ningw0806](https://github.com/Ningw0806)
+
