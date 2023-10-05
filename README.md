@@ -2,13 +2,9 @@
 
 ## ABOUT
 
-CatClub is a React application that provides information about various cat
+CatClub is a React application that provides information about various cat breeds through an interactive UI. Users can explore diﬀerent breeds and
 
-breeds through an interactive UI. Users can explore diﬀerent breeds and
-
-learn about their characteristics, making it a handy tool for potential cat
-
-owners or enthusiasts.
+learn about their characteristics, making it a handy tool for potential cat owners or enthusiasts.
 
 ## TECHNOLOGIES USED
 
