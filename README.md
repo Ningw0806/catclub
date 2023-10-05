@@ -40,9 +40,7 @@ The application provides an accordion-style UI where users can explore various c
 
 ## CONTRIBUTION
 
-Contributions, issues, and feature requests are welcome! Feel free to check
-
-[issues](https://github.com/Ningw0806/catclub/issues)[ ](https://github.com/Ningw0806/catclub/issues)[page](https://github.com/Ningw0806/catclub/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/Ningw0806/catclub/issues).
 
 ## LICENSE
 
