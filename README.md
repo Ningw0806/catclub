@@ -2,61 +2,41 @@
 
 ## ABOUT
 
-CatClub is a React application that provides information about various cat breeds through an interactive UI. Users can explore diﬀerent breeds and
+CatClub is a React application that provides information about various cat breeds through an interactive UI. Users can explore diﬀerent breeds and learn about their characteristics, making it a handy tool for potential cat owners or enthusiasts.
 
-learn about their characteristics, making it a handy tool for potential cat owners or enthusiasts.
+## TECH USED
 
-## TECHNOLOGIES USED
+• React: Utilized for UI development, enabling the creation of interactive UI components.
 
-• React: Utilized for UI development, enabling the creation of interactive
+• CSS: Employed for styling the application, and enhancing the user interface, and user experience.
 
-UI components.
+• JavaScript (ES6+): The scripting language used to create dynamic content and handle user interactions.
 
-• CSS: Employed for styling the application, enhancing the user interface,
-
-and user experience.
-
-• JavaScript (ES6+): The scripting language used to create dynamic
-
-content and handle user interactions.
-
-• npm: A package manager used to manage project dependencies and
-
-run scripts.
+• npm: A package manager used to manage project dependencies and run scripts.
 
 • HTML5: The markup language used for structuring the content.
 
-SETUP AND INSTALLATION
+## SETUP AND INSTALLATION
 
-• Clone the repository: git clone https://github.com/Ningw0806/
+• Clone the repository: \- `git clone https://github.com/Ningw0806/catclub.git`
 
-catclub.git
+• Navigate to the project directory: \- `cd catclub`
 
-• Navigate to the project directory: cd catclub
+• Install dependencies: \- `npm install`
 
-• Install dependencies: npm install
-
-• Start the development server: npm start
+• Start the development server: \- `npm start`
 
 ## TESTING
 
 Ensure the web app functions correctly by running:
 
-\- `npm install`
-
 \- `npm run build`
 
 \- `npx -s serve build`
 
-
-
-<a name="br2"></a> 
-
 ## USAGE
 
-The application provides an accordion-style UI where users can explore
-
-various cat breeds and read about their characteristics.
+The application provides an accordion-style UI where users can explore various cat breeds and read about their characteristics.
 
 ## CONTRIBUTION
 
